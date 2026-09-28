@@ -1,0 +1,9 @@
+# microbenchmark.py e ambiente_info.py usam apenas a biblioteca padrão do
+# Python (csv, time, platform, os, json, statistics, argparse) -- nenhuma
+# instalação é necessária para rodar o experimento.
+#
+# analisar_resultados.py também roda sem dependências externas (tabelas
+# e comparação em CSV funcionam com a biblioteca padrão). A única
+# dependência opcional é o matplotlib, usado para gerar os gráficos:
+
+matplotlib>=3.8
